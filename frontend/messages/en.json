@@ -1,0 +1,88 @@
+{
+    "Header": {
+    "about": "About us",
+    "activities": "Activities",
+    "jobs": "Jobs",
+    "contact": "Contact",
+    "activitiesEmpty": "Activities will be added soon.",
+     "language": "Language:",
+    "email": "info@msinfra.be",
+    "phone": "052 35 37 97"
+  },
+  "Floating": {
+  "call": "Call us",
+  "mail": "Email us"
+},
+  "HomePage": {
+    "Hero": {
+      "eyebrow": "MS INFRA",
+      "title": "Building the infrastructure of tomorrow.",
+      "description": "Strong in utility networks, connections and groundwork. From water and telecom to gas and electricity.",
+      "cta": "Discover our activities"
+    }
+  },
+  "ActivitiesSection": {
+    "eyebrow": "Our activities",
+    "title": "Expertise you can build on",
+    "description": "From utility networks and connections to groundwork and paving. Discover where MS Infra makes a difference every day.",
+    "allActivities": "All activities",
+    "readMore": "Read more",
+    "empty": "There are currently no published activities."
+  },
+  "WhyUsSection": {
+  "eyebrow": "Why MS Infra",
+  "title": "Craftsmanship you can rely on.",
+  "description": "MS Infra combines experience, specialised equipment and skilled teams to deliver infrastructure works safely and professionally.",
+  "items": {
+    "experience": {
+      "title": "Experience in utility infrastructure",
+      "description": "Strong expertise in infrastructure for gas, electricity, water and telecom."
+    },
+    "fluvius": {
+      "title": "Contractor for Fluvius",
+      "description": "Work carried out according to clear quality and safety requirements."
+    },
+    "equipment": {
+      "title": "Own equipment & skilled teams",
+      "description": "Professional equipment and experienced crews for efficient execution."
+    },
+    "complete": {
+      "title": "From groundwork to finishing",
+      "description": "From excavation and connections to paving and restoration."
+    }
+  }
+},
+"AboutSection": {
+  "eyebrow": "About MS Infra",
+  "title": "Building strong infrastructure since 2019.",
+  "paragraph1": "Since 2019, MS Infra has grown into a versatile infrastructure contractor. With more than 100 employees, we deliver projects across Belgium.",
+  "paragraph2": "We combine craftsmanship, experience and a strong focus on safety and quality. As a contractor for Fluvius, we work every day on reliable infrastructure for water, gas, electricity and telecom.",
+  "cta": "More about MS Infra",
+  "stats": {
+    "founded": {
+      "value": "2019",
+      "label": "Founded"
+    },
+    "employees": {
+      "value": "100+",
+      "label": "Employees"
+    },
+    "coverage": {
+      "value": "Belgium",
+      "label": "Active nationwide"
+    }
+  }
+},
+"CertificatesSection": {
+  "eyebrow": "Certificates & quality",
+  "title": "Safe and compliant with high standards.",
+  "description": "Quality and safety are at the heart of everything we do. Our certificates and accreditations underline our professional way of working."
+},
+"JobsCta": {
+  "eyebrow": "Work at MS Infra",
+  "title": "Help build the infrastructure of tomorrow.",
+  "description": "We are always looking for motivated professionals who want to help us build strong and reliable infrastructure.",
+  "primaryCta": "View vacancies",
+  "secondaryCta": "Contact us"
+}
+}

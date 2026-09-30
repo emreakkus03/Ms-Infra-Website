@@ -1,0 +1,92 @@
+{
+
+
+    
+  "Header": {
+    "about": "Over ons",
+    "activities": "Activiteiten",
+    "jobs": "Vacatures",
+    "contact": "Contact",
+    "activitiesEmpty": "Activiteiten worden binnenkort toegevoegd.",
+    "language": "Taal:",
+    "email": "info@msinfra.be",
+    "phone": "052 35 37 97"
+  },
+  "Floating": {
+  "call": "Bel ons",
+  "mail": "Mail ons"
+},
+  "HomePage": {
+    "Hero": {
+      "eyebrow": "MS INFRA",
+      "title": "Wij bouwen aan de infrastructuur van morgen.",
+      "description": "Sterk in nutsleidingen, aansluitingen en grondwerken. Van water en telecom tot gas en elektriciteit.",
+      "cta": "Ontdek onze activiteiten"
+    }
+  },
+
+  "ActivitiesSection": {
+    "eyebrow": "Onze activiteiten",
+    "title": "Expertise waarop u kunt bouwen",
+    "description": "Van nutsleidingen en aansluitingen tot grondwerken en bestrating. Ontdek waar MS Infra elke dag het verschil maakt.",
+    "allActivities": "Alle activiteiten",
+    "readMore": "Lees meer",
+    "empty": "Er zijn momenteel nog geen activiteiten gepubliceerd."
+  },
+  "WhyUsSection": {
+  "eyebrow": "Waarom MS Infra",
+  "title": "Vakmanschap waarop u kunt vertrouwen.",
+  "description": "MS Infra combineert ervaring, gespecialiseerd materieel en sterke vakmensen om infrastructuurwerken veilig en professioneel uit te voeren.",
+  "items": {
+    "experience": {
+      "title": "Ervaring in nutsleidingen",
+      "description": "Sterke expertise in infrastructuur voor gas, elektriciteit, water en telecom."
+    },
+    "fluvius": {
+      "title": "Aannemer voor Fluvius",
+      "description": "Uitvoering volgens duidelijke kwaliteits- en veiligheidsvereisten."
+    },
+    "equipment": {
+      "title": "Eigen materieel & vakmensen",
+      "description": "Professioneel materieel en ervaren ploegen voor een efficiënte uitvoering."
+    },
+    "complete": {
+      "title": "Van grondwerk tot afwerking",
+      "description": "Van graafwerken en aansluitingen tot bestrating en herstelling."
+    }
+  }
+},
+"AboutSection": {
+  "eyebrow": "Over MS Infra",
+  "title": "Bouwen aan sterke infrastructuur sinds 2019.",
+  "paragraph1": "Sinds 2019 is MS Infra uitgegroeid tot een veelzijdige aannemer in infrastructuurwerken. Met meer dan 100 medewerkers realiseren we projecten in heel België.",
+  "paragraph2": "We combineren vakmanschap, ervaring en een sterke focus op veiligheid en kwaliteit. Als aannemer voor Fluvius werken we dagelijks aan betrouwbare infrastructuur voor water, gas, elektriciteit en telecom.",
+  "cta": "Meer over MS Infra",
+  "stats": {
+    "founded": {
+      "value": "2019",
+      "label": "Opgericht"
+    },
+    "employees": {
+      "value": "100+",
+      "label": "Medewerkers"
+    },
+    "coverage": {
+      "value": "België",
+      "label": "Actief in heel België"
+    }
+  }
+},
+"CertificatesSection": {
+  "eyebrow": "Certificaten & kwaliteit",
+  "title": "Veilig en volgens hoge standaarden.",
+  "description": "Kwaliteit en veiligheid staan centraal in alles wat we doen. Onze certificaten en erkenningen onderstrepen onze professionele manier van werken."
+},
+"JobsCta": {
+  "eyebrow": "Werken bij MS Infra",
+  "title": "Bouw mee aan de infrastructuur van morgen.",
+  "description": "We zijn altijd op zoek naar gemotiveerde vakmensen die samen met ons willen bouwen aan sterke en betrouwbare infrastructuur.",
+  "primaryCta": "Bekijk vacatures",
+  "secondaryCta": "Contacteer ons"
+}
+}
