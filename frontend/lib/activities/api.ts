@@ -3,13 +3,16 @@ export type Activity = {
   title: string;
   slug: string;
   description: string | null;
+  tags: string[];
   hero_image: string | null;
   is_featured: boolean;
   sort_order: number;
 };
 
+type ActivityPayload = Omit<Activity, "tags"> & { tags?: unknown };
+
 type ActivitiesResponse = {
-  data?: Activity[];
+  data?: ActivityPayload[];
 };
 
 export async function getActivities(
@@ -34,12 +37,15 @@ export async function getActivities(
     );
   }
 
-  const result: ActivitiesResponse | Activity[] =
+  const result: ActivitiesResponse | ActivityPayload[] =
     await response.json();
 
-  if (Array.isArray(result)) {
-    return result;
-  }
+  const activities = Array.isArray(result) ? result : result.data ?? [];
 
-  return result.data ?? [];
+  return activities.map((activity) => ({
+    ...activity,
+    tags: Array.isArray(activity.tags)
+      ? activity.tags.filter((label): label is string => typeof label === "string" && label.trim().length > 0)
+      : [],
+  }));
 }

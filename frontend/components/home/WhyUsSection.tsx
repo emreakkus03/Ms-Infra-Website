@@ -24,19 +24,18 @@ export default async function WhyUsSection() {
     <section className="bg-slate-50 py-20 sm:py-24 lg:py-28">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:items-center lg:gap-16 lg:px-8">
         <div className="relative overflow-hidden rounded-2xl">
-          <div className="relative min-h-[420px] sm:min-h-[520px] lg:min-h-[620px]">
-            <Image
-              src="/images/why-ms-infra.jpg"
-              alt="MS Infra infrastructuurwerken"
-              fill
-              className="object-cover"
-              sizes="(min-width: 1024px) 50vw, 100vw"
-            />
-          </div>
+  <div className="relative aspect-[4/3] w-full lg:aspect-[3/2]">
+    <Image
+      src="/images/why-ms-infra.jpeg"
+      alt="MS Infra infrastructuurwerken"
+      fill
+      className="object-cover object-center"
+      sizes="(min-width: 1024px) 50vw, 100vw"
+    />
+  </div>
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
-        </div>
-
+  <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+</div>
         <div>
           <div className="mb-4 flex items-center gap-3">
             <span className="h-[2px] w-9 bg-[#B81C31]" />

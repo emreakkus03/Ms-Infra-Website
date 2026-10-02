@@ -6,6 +6,7 @@ use App\Enums\ActivityStatus;
 use App\Filament\Schemas\ContentSectionForm;
 use App\Filament\Schemas\LocalizedContentForm;
 use App\Support\ActivityContent;
+use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Toggle;
@@ -28,6 +29,19 @@ class ActivityForm
                 ])->columns(2),
                 Tab::make('Nederlands')->schema([LocalizedContentForm::translation('dutchTranslation', 'nl')]),
                 Tab::make('English')->schema([LocalizedContentForm::translation('englishTranslation', 'en')]),
+                Tab::make('Preview keywords')->schema([
+                    Repeater::make('tags')->label('Highlights')->relationship()->orderColumn('sort_order')
+                        ->defaultItems(0)->addActionLabel('Keyword toevoegen')
+                        ->helperText('Optionele korte labels voor het activiteitenoverzicht, maximaal 60 tekens per taal.')
+                        ->schema([
+                            Group::make()->relationship('dutchTranslation')->schema([
+                                TextInput::make('label')->label('Nederlands')->required()->maxLength(60),
+                            ]),
+                            Group::make()->relationship('englishTranslation')->schema([
+                                TextInput::make('label')->label('English')->required()->maxLength(60),
+                            ]),
+                        ])->columns(2),
+                ]),
                 Tab::make('Pagina inhoud')->schema([ContentSectionForm::make()]),
                 Tab::make('SEO')->schema([
                     Group::make()->relationship('dutchTranslation')->schema(LocalizedContentForm::seo('Nederlands')),

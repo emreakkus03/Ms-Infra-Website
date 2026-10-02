@@ -3,6 +3,7 @@
 namespace App\Http\Resources;
 
 use App\Enums\ContentLocale;
+use App\Models\ActivityTag;
 use App\Support\ActivityContent;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
@@ -20,6 +21,9 @@ class ActivityResource extends JsonResource
             'title' => $translation->title, 'slug' => $translation->slug,
             'description' => $translation->description, 'hero_image' => ActivityContent::imageUrl($this->hero_image),
             'is_featured' => $this->is_featured, 'sort_order' => $this->sort_order,
+            'tags' => $this->tags
+                ->map(fn (ActivityTag $tag): ?string => $tag->translations->firstWhere('locale', $locale)?->label)
+                ->filter(fn (?string $label): bool => filled($label))->values()->all(),
             'alternate_slugs' => (object) $alternateSlugs->all(),
             $this->mergeWhen($this->relationLoaded('sections'), fn (): array => [
                 'seo_title' => $translation->seo_title, 'seo_description' => $translation->seo_description,

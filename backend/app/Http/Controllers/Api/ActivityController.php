@@ -14,7 +14,8 @@ class ActivityController extends Controller
 {
     public function index(ActivityLocaleRequest $request): AnonymousResourceCollection
     {
-        $activities = Activity::query()->published()->ordered()
+        $activities = Activity::query()->published()
+            ->with(['tags.translations' => fn (HasMany $query) => $query->where('locale', $request->locale())])->ordered()
             ->whereHas('translations', fn (Builder $query) => $query->where('locale', $request->locale()))
             ->with('translations')->get();
 
@@ -24,6 +25,7 @@ class ActivityController extends Controller
     public function show(ActivityLocaleRequest $request, string $slug): ActivityResource
     {
         $activity = Activity::query()->published()
+            ->with(['tags.translations' => fn (HasMany $query) => $query->where('locale', $request->locale())])
             ->whereHas('translations', fn (Builder $query) => $query->where('locale', $request->locale())->where('slug', $slug))
             ->with(['translations', 'sections' => fn (HasMany $query) => $query->enabled()
                 ->whereHas('translations', fn (Builder $query) => $query->where('locale', $request->locale()))

@@ -78,18 +78,18 @@ export default async function AboutSection() {
         </div>
 
         <div className="relative overflow-hidden rounded-2xl">
-          <div className="relative min-h-[420px] sm:min-h-[520px] lg:min-h-[620px]">
-            <Image
-              src="/images/about-ms-infra.jpg"
-              alt="MS Infra"
-              fill
-              className="object-cover"
-              sizes="(min-width: 1024px) 45vw, 100vw"
-            />
-          </div>
+  <div className="relative aspect-[16/10] w-full">
+    <Image
+      src="/images/about-ms-infra.jpeg"
+      alt="MS Infra"
+      fill
+      className="object-cover object-center"
+      sizes="(min-width: 1024px) 45vw, 100vw"
+    />
+  </div>
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
-        </div>
+  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
+</div>
       </div>
     </section>
   );

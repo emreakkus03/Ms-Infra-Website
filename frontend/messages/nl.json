@@ -58,7 +58,7 @@
     "Hero": {
       "eyebrow": "MS INFRA",
       "title": "Wij bouwen aan de infrastructuur van morgen.",
-      "description": "Sterk in nutsleidingen, aansluitingen en grondwerken. Van water en telecom tot gas en elektriciteit.",
+      "description": "Sterk in nutsleidingen, aansluitingen en grondwerken. Van elektriciteit en gas tot telecom en water.",
       "cta": "Ontdek onze activiteiten"
     }
   },
@@ -80,7 +80,7 @@
         "description": "Sterke expertise in infrastructuur voor gas, elektriciteit, water en telecom."
       },
       "fluvius": {
-        "title": "Aannemer voor Fluvius",
+        "title": "Fluvius Aannemer",
         "description": "Uitvoering volgens duidelijke kwaliteits- en veiligheidsvereisten."
       },
       "equipment": {

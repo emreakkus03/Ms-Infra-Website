@@ -35,6 +35,11 @@ class Activity extends Model
         return $this->hasOne(ActivityTranslation::class)->withAttributes(['locale' => 'en']);
     }
 
+    public function tags(): HasMany
+    {
+        return $this->hasMany(ActivityTag::class)->orderBy('sort_order')->orderBy('id');
+    }
+
     public function sections(): HasMany
     {
         return $this->hasMany(ActivitySection::class)->orderBy('sort_order')->orderBy('id');
