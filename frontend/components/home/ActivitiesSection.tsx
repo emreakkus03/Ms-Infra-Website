@@ -2,44 +2,8 @@ import { ArrowRight } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { getActivities } from "@/lib/activities/api";
 
-type Activity = {
-  id: number;
-  title: string;
-  slug: string;
-  description: string | null;
-  hero_image: string | null;
-  is_featured: boolean;
-  sort_order: number;
-};
-
-type ActivitiesResponse = {
-  data?: Activity[];
-};
-
-async function getActivities(locale: string): Promise<Activity[]> {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL;
-
-  if (!apiUrl) {
-    throw new Error("NEXT_PUBLIC_API_URL is niet ingesteld.");
-  }
-
-  const response = await fetch(`${apiUrl}/activities?locale=${locale}`, {
-    cache: "no-store",
-  });
-
-  if (!response.ok) {
-    throw new Error("Activiteiten konden niet worden opgehaald.");
-  }
-
-  const result: ActivitiesResponse | Activity[] = await response.json();
-
-  if (Array.isArray(result)) {
-    return result;
-  }
-
-  return result.data ?? [];
-}
 
 export default async function ActivitiesSection({
   locale,
@@ -73,25 +37,28 @@ export default async function ActivitiesSection({
             </p>
           </div>
 
-          <Link
-            href={basePath}
-            className="group inline-flex w-fit items-center gap-2 text-base font-semibold text-[#B81C31] transition-colors hover:text-[#941727] lg:mt-12"
-          >
-            {t("allActivities")}
+         <Link
+  href="/activities"
+  className="group inline-flex w-fit items-center gap-2 text-base font-semibold text-[#B81C31] transition-colors hover:text-[#941727] lg:mt-12"
+>
+  {t("allActivities")}
 
-            <ArrowRight
-              size={19}
-              className="transition-transform duration-200 group-hover:translate-x-1"
-            />
-          </Link>
+  <ArrowRight
+    size={19}
+    className="transition-transform duration-200 group-hover:translate-x-1"
+  />
+</Link>
         </div>
 
         {activities.length > 0 ? (
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {activities.map((activity) => (
+            {activities.slice(0, 3).map((activity) => (
               <Link
                 key={activity.id}
-                href={`${basePath}/${activity.slug}`}
+               href={{
+  pathname: "/activities",
+  hash: activity.slug,
+}}
                 className="group relative min-h-[420px] overflow-hidden rounded-2xl bg-slate-900"
               >
                 {activity.hero_image && (

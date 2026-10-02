@@ -1,8 +1,45 @@
 {
+  "General": {
+  "companyName": "MS Infra BV",
+  "email": "info@msinfra.be",
+  "phone": "052 35 37 97",
+  "phoneHref": "052353797",
+  "address": "Haverheidelaan 2, 9140 Temse",
+  "vat": "BE0722.823.214",
+  "facebook": "https://www.facebook.com/p/Ms-Infra-61558801023475/",
+  "linkedin": "https://www.linkedin.com/company/ms-infra-group/",
+  "instagram": "https://instagram.com/",
+  "developerUrl": "https://www.linkedin.com/in/emre-akkus-118363251/"
+},
 
-
-    
+"Metadata": {
+  "Home": {
+    "title": "MS Infra | Infrastructuur- en nutsleidingswerken",
+    "description": "MS Infra is gespecialiseerd in nutsleidingen, grondwerken, huisaansluitingen, telecom, water, gas en elektriciteit in heel België."
+  },
+  "About": {
+    "title": "Over MS Infra | Infrastructuurwerken in België",
+    "description": "Ontdek MS Infra, een ervaren aannemer voor nutsleidingen, grondwerken en infrastructuurwerken in heel België."
+  },
+  "Activities": {
+    "title": "Activiteiten | MS Infra",
+    "description": "Ontdek de activiteiten van MS Infra: nutsleidingen, grondwerken, huisaansluitingen, telecom, water, gas, elektriciteit en bestratingswerken."
+  },
+  "Jobs": {
+    "title": "Vacatures | Werken bij MS Infra",
+    "description": "Ontdek de openstaande vacatures bij MS Infra en bouw mee aan sterke infrastructuur in heel België."
+  },
+  "Contact": {
+    "title": "Contact | MS Infra",
+    "description": "Neem contact op met MS Infra voor vragen over infrastructuurwerken, nutsleidingen, projecten of samenwerkingen."
+  },
+ "Privacy": {
+  "title": "Privacybeleid | MS Infra",
+  "description": "Lees hoe MS Infra persoonsgegevens verwerkt en beschermt wanneer u onze website gebruikt of contact met ons opneemt."
+}
+},
   "Header": {
+    "home": "Home",
     "about": "Over ons",
     "activities": "Activiteiten",
     "jobs": "Vacatures",
@@ -10,12 +47,13 @@
     "activitiesEmpty": "Activiteiten worden binnenkort toegevoegd.",
     "language": "Taal:",
     "email": "info@msinfra.be",
-    "phone": "052 35 37 97"
+    "phone": "052 35 37 97",
+    "allActivities": "Alle activiteiten"
   },
   "Floating": {
-  "call": "Bel ons",
-  "mail": "Mail ons"
-},
+    "call": "Bel ons",
+    "mail": "Mail ons"
+  },
   "HomePage": {
     "Hero": {
       "eyebrow": "MS INFRA",
@@ -24,7 +62,6 @@
       "cta": "Ontdek onze activiteiten"
     }
   },
-
   "ActivitiesSection": {
     "eyebrow": "Onze activiteiten",
     "title": "Expertise waarop u kunt bouwen",
@@ -34,59 +71,302 @@
     "empty": "Er zijn momenteel nog geen activiteiten gepubliceerd."
   },
   "WhyUsSection": {
-  "eyebrow": "Waarom MS Infra",
-  "title": "Vakmanschap waarop u kunt vertrouwen.",
-  "description": "MS Infra combineert ervaring, gespecialiseerd materieel en sterke vakmensen om infrastructuurwerken veilig en professioneel uit te voeren.",
-  "items": {
-    "experience": {
-      "title": "Ervaring in nutsleidingen",
-      "description": "Sterke expertise in infrastructuur voor gas, elektriciteit, water en telecom."
+    "eyebrow": "Waarom MS Infra",
+    "title": "Vakmanschap waarop u kunt vertrouwen.",
+    "description": "MS Infra combineert ervaring, gespecialiseerd materieel en sterke vakmensen om infrastructuurwerken veilig en professioneel uit te voeren.",
+    "items": {
+      "experience": {
+        "title": "Ervaring in nutsleidingen",
+        "description": "Sterke expertise in infrastructuur voor gas, elektriciteit, water en telecom."
+      },
+      "fluvius": {
+        "title": "Aannemer voor Fluvius",
+        "description": "Uitvoering volgens duidelijke kwaliteits- en veiligheidsvereisten."
+      },
+      "equipment": {
+        "title": "Eigen materieel & vakmensen",
+        "description": "Professioneel materieel en ervaren ploegen voor een efficiënte uitvoering."
+      },
+      "complete": {
+        "title": "Van grondwerk tot afwerking",
+        "description": "Van graafwerken en aansluitingen tot bestrating en herstelling."
+      }
+    }
+  },
+  "AboutSection": {
+    "eyebrow": "Over MS Infra",
+    "title": "Bouwen aan sterke infrastructuur sinds 2019.",
+    "paragraph1": "Sinds 2019 is MS Infra uitgegroeid tot een veelzijdige aannemer in infrastructuurwerken. Met meer dan 100 medewerkers realiseren we projecten in heel België.",
+    "paragraph2": "We combineren vakmanschap, ervaring en een sterke focus op veiligheid en kwaliteit. Als aannemer voor Fluvius werken we dagelijks aan betrouwbare infrastructuur voor water, gas, elektriciteit en telecom.",
+    "cta": "Meer over MS Infra",
+    "stats": {
+      "founded": {
+        "value": "2019",
+        "label": "Opgericht"
+      },
+      "employees": {
+        "value": "100+",
+        "label": "Medewerkers"
+      },
+      "coverage": {
+        "value": "België",
+        "label": "Actief in heel België"
+      }
+    }
+  },
+  "CertificatesSection": {
+    "eyebrow": "Certificaten & kwaliteit",
+    "title": "Veilig en volgens hoge standaarden.",
+    "description": "Kwaliteit en veiligheid staan centraal in alles wat we doen. Onze certificaten en erkenningen onderstrepen onze professionele manier van werken."
+  },
+  "JobsCta": {
+    "eyebrow": "Werken bij MS Infra",
+    "title": "Bouw mee aan de infrastructuur van morgen.",
+    "description": "We zijn altijd op zoek naar gemotiveerde vakmensen die samen met ons willen bouwen aan sterke en betrouwbare infrastructuur.",
+    "primaryCta": "Bekijk vacatures",
+    "secondaryCta": "Contacteer ons"
+  },
+  "AboutPage": {
+    "Hero": {
+      "eyebrow": "Over MS Infra",
+      "title": "Sterke infrastructuur begint met sterke mensen.",
+      "description": "Sinds 2019 bouwen we met vakmanschap, ervaring en verantwoordelijkheid aan betrouwbare infrastructuur in heel België."
+    }
+  },
+  "AboutIntro": {
+    "eyebrow": "Over MS Infra",
+    "title": "Van een sterke start naar een vaste waarde in infrastructuurwerken.",
+    "paragraph1": "Sinds 2019 is MS Infra uitgegroeid tot een veelzijdige aannemer met meer dan 100 medewerkers. Vandaag realiseren we werken in heel België voor nutsleidingen, huisaansluitingen, grondwerken, bestrating, telecom, water, gas en elektriciteit.",
+    "paragraph2": "We combineren vakmanschap met veiligheid, kwaliteit en een professionele uitvoering van elk project.",
+    "stats": {
+      "founded": {
+        "value": "2019",
+        "label": "Opgericht"
+      },
+      "employees": {
+        "value": "100+",
+        "label": "Medewerkers"
+      },
+      "coverage": {
+        "value": "België",
+        "label": "Actief in heel het land"
+      },
+      "fluvius": {
+        "value": "Fluvius",
+        "label": "Aannemer"
+      }
+    }
+  },
+  "AboutRecognitions": {
+    "eyebrow": "Erkenningen",
+    "title": "Erkend voor verschillende infrastructuurwerken.",
+    "description": "MS Infra beschikt over verschillende officiële erkenningen als aannemer. Deze erkenningen bevestigen onze technische bekwaamheid voor uiteenlopende werken binnen infrastructuur en nutsvoorzieningen."
+  },
+  "AboutApproach": {
+    "eyebrow": "Onze aanpak",
+    "title": "Van voorbereiding tot uitvoering.",
+    "description": "We werken gestructureerd, veilig en met aandacht voor kwaliteit in elke fase van het project.",
+    "items": {
+      "safety": {
+        "title": "Veiligheid voorop",
+        "description": "Veilig werken staat centraal op elke werf, voor onze medewerkers, partners en omgeving."
+      },
+      "communication": {
+        "title": "Duidelijke samenwerking",
+        "description": "Heldere afspraken en goede communicatie zorgen voor een vlotte uitvoering van elk project."
+      },
+      "quality": {
+        "title": "Kwaliteit in elke fase",
+        "description": "Van voorbereiding tot afwerking streven we naar een professionele en duurzame uitvoering."
+      }
+    }
+  },
+  "JobsPage": {
+    "back": "Terug naar vacatures",
+  "detailEyebrow": "Vacature",
+    "Hero": {
+      "eyebrow": "Werken bij MS Infra",
+      "title": "Bouw mee aan de infrastructuur van morgen.",
+      "description": "Bij MS Infra werken we elke dag samen aan sterke en betrouwbare infrastructuur. Ontdek onze openstaande vacatures en word deel van ons team."
     },
-    "fluvius": {
-      "title": "Aannemer voor Fluvius",
-      "description": "Uitvoering volgens duidelijke kwaliteits- en veiligheidsvereisten."
+    "openPositions": "Openstaande vacatures",
+    "empty": "Momenteel zijn er geen openstaande vacatures.",
+    "viewJob": "Bekijk vacature",
+    "location": "Locatie",
+    "employmentType": "Dienstverband",
+    "employmentTypes": {
+      "full_time": "Voltijds",
+      "part_time": "Deeltijds",
+      "temporary": "Tijdelijk",
+      "internship": "Stage"
+    },
+    "loading": "Vacatures laden…",
+    "errorTitle": "Vacatures zijn tijdelijk niet beschikbaar",
+    "errorDescription": "We kunnen de vacatures momenteel niet ophalen. Probeer het opnieuw.",
+    "retry": "Opnieuw proberen",
+    "notFound": "Vacature niet gevonden",
+    "notFoundDescription": "Deze vacature is niet beschikbaar of niet meer gepubliceerd.",
+    "Application": {
+      "eyebrow": "Solliciteren",
+  "title": "Interesse in deze vacature?",
+  "description": "Stuur ons je cv en een korte motivatie via e-mail. We nemen zo snel mogelijk contact met je op.",
+  "button": "Solliciteer via e-mail",
+  "subject": "Sollicitatie voor {title}"
+    }
+  },
+  "WhyWorkAtMsInfra": {
+  "eyebrow": "Waarom MS Infra",
+  "title": "Werk mee aan sterke infrastructuur.",
+  "description": "Bij MS Infra kom je terecht in een groeiend bedrijf waar vakmanschap, samenwerking en verantwoordelijkheid centraal staan.",
+  "items": {
+    "team": {
+      "title": "Sterk team",
+      "description": "Je werkt samen met ervaren collega's die elke dag bouwen aan betrouwbare infrastructuur."
+    },
+    "projects": {
+      "title": "Afwisselende projecten",
+      "description": "Van nutsleidingen en aansluitingen tot grondwerken en infrastructuurwerken op verschillende werven."
     },
     "equipment": {
-      "title": "Eigen materieel & vakmensen",
-      "description": "Professioneel materieel en ervaren ploegen voor een efficiënte uitvoering."
+      "title": "Professioneel materieel",
+      "description": "We werken met geschikt materieel en de juiste middelen om onze werken professioneel uit te voeren."
     },
-    "complete": {
-      "title": "Van grondwerk tot afwerking",
-      "description": "Van graafwerken en aansluitingen tot bestrating en herstelling."
+    "growth": {
+      "title": "Ruimte om te groeien",
+      "description": "We geven gemotiveerde medewerkers de kans om verantwoordelijkheid op te nemen en verder te groeien binnen MS Infra."
     }
   }
 },
-"AboutSection": {
-  "eyebrow": "Over MS Infra",
-  "title": "Bouwen aan sterke infrastructuur sinds 2019.",
-  "paragraph1": "Sinds 2019 is MS Infra uitgegroeid tot een veelzijdige aannemer in infrastructuurwerken. Met meer dan 100 medewerkers realiseren we projecten in heel België.",
-  "paragraph2": "We combineren vakmanschap, ervaring en een sterke focus op veiligheid en kwaliteit. Als aannemer voor Fluvius werken we dagelijks aan betrouwbare infrastructuur voor water, gas, elektriciteit en telecom.",
-  "cta": "Meer over MS Infra",
-  "stats": {
-    "founded": {
-      "value": "2019",
-      "label": "Opgericht"
-    },
-    "employees": {
-      "value": "100+",
-      "label": "Medewerkers"
-    },
-    "coverage": {
-      "value": "België",
-      "label": "Actief in heel België"
-    }
-  }
+"SpontaneousApplication": {
+  "eyebrow": "Spontane sollicitatie",
+  "title": "Geen passende vacature gevonden?",
+  "description": "Stuur ons gerust je cv en een korte motivatie via e-mail. Vertel ons naar welke functie je op zoek bent en misschien vinden we samen een plek binnen MS Infra.",
+  "cta": "Stuur je sollicitatie"
 },
-"CertificatesSection": {
-  "eyebrow": "Certificaten & kwaliteit",
-  "title": "Veilig en volgens hoge standaarden.",
-  "description": "Kwaliteit en veiligheid staan centraal in alles wat we doen. Onze certificaten en erkenningen onderstrepen onze professionele manier van werken."
+
+"ContactPage": {
+  "Hero": {
+    "eyebrow": "Contact",
+    "title": "Neem contact op met MS Infra.",
+    "description": "Heeft u een vraag over onze diensten, een samenwerking of een project? Neem gerust contact met ons op. We helpen u graag verder."
+  },
+  "ContactSection": {
+  "eyebrow": "Contactgegevens",
+  "title": "We helpen u graag verder.",
+  "description": "Neem telefonisch, via e-mail of via het contactformulier contact met ons op. We beantwoorden uw vraag zo snel mogelijk.",
+  "phoneLabel": "Telefoon",
+  "emailLabel": "E-mail",
+  "addressLabel": "Adres"
 },
-"JobsCta": {
-  "eyebrow": "Werken bij MS Infra",
-  "title": "Bouw mee aan de infrastructuur van morgen.",
-  "description": "We zijn altijd op zoek naar gemotiveerde vakmensen die samen met ons willen bouwen aan sterke en betrouwbare infrastructuur.",
-  "primaryCta": "Bekijk vacatures",
-  "secondaryCta": "Contacteer ons"
+"Form": {
+  "name": "Naam *",
+  "email": "E-mailadres *",
+  "phone": "Telefoonnummer *",
+  "subject": "Onderwerp *",
+  "message": "Bericht *",
+  "submit": "Verstuur bericht",
+  "sending": "Bericht verzenden...",
+  "sent": "Bericht verzonden",
+  "success": "Uw bericht is succesvol verzonden. We nemen zo snel mogelijk contact met u op.",
+  "error": "Er is iets misgegaan bij het verzenden van uw bericht. Probeer het later opnieuw."
+},
+"Map": {
+  "eyebrow": "Onze locatie",
+  "title": "U vindt ons hier.",
+  "description": "Bekijk onze locatie op de kaart en plan eenvoudig uw route naar MS Infra.",
+  "mapTitle": "Locatie van MS Infra"
 }
+},
+"ActivitiesPage": {
+  "eyebrow": "Onze activiteiten",
+  "title": "Sterk in infrastructuurwerken.",
+  "description": "Ontdek de activiteiten waarin MS Infra elke dag expertise, vakmanschap en ervaring inzet.",
+  "empty": "Er zijn momenteel nog geen activiteiten gepubliceerd."
+},
+
+"Footer": {
+  "description": "Uw partner voor nutsleidingen, infrastructuurwerken en professionele uitvoering in heel België.",
+  "navigation": "Navigatie",
+  "contact": "Contact",
+  "openingHours": "Openingsuren",
+  "socials": "Volg ons",
+  "home": "Home",
+  "about": "Over ons",
+  "activities": "Activiteiten",
+  "jobs": "Vacatures",
+  "contactPage": "Contact",
+  "vatLabel": "BTW",
+  "monday": "Maandag",
+  "tuesday": "Dinsdag",
+  "wednesday": "Woensdag",
+  "thursday": "Donderdag",
+  "friday": "Vrijdag",
+  "saturday": "Zaterdag",
+  "sunday": "Zondag",
+  "weekdayHours": "08:00 - 17:00",
+  "closed": "Gesloten",
+  "privacy": "Privacybeleid",
+  "copyright": "Alle rechten voorbehouden.",
+  "builtByLabel": "Built by"
+},
+
+"PrivacyPage": {
+  "eyebrow": "Privacy",
+  "title": "Privacybeleid",
+  "intro": "In dit privacybeleid leggen we uit welke persoonsgegevens MS Infra verwerkt wanneer u onze website gebruikt of contact met ons opneemt.",
+  "vatLabel": "BTW",
+  "controller": {
+    "title": "1. Verwerkingsverantwoordelijke"
+  },
+  "data": {
+    "title": "2. Welke gegevens verwerken we?",
+    "description": "Wanneer u het contactformulier gebruikt, kunnen we de volgende persoonsgegevens verwerken:",
+    "items": {
+      "name": "Naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "subject": "Onderwerp van uw bericht",
+      "message": "De inhoud van uw bericht"
+    }
+  },
+  "purposes": {
+    "title": "3. Waarom verwerken we uw gegevens?",
+    "description": "We gebruiken uw gegevens om uw vraag te beantwoorden, contact met u op te nemen en eventuele commerciële of projectgerelateerde communicatie verder op te volgen."
+  },
+  "legalBasis": {
+    "title": "4. Rechtsgrond",
+    "description": "De verwerking gebeurt wanneer dit nodig is om uw verzoek te behandelen, om voorbereidende stappen te nemen op uw verzoek of op basis van het gerechtvaardigd belang van MS Infra om vragen en zakelijke communicatie correct af te handelen."
+  },
+  "processors": {
+    "title": "5. Externe dienstverleners",
+    "description": "Voor de werking van onze website en communicatie kunnen we gebruikmaken van externe dienstverleners die persoonsgegevens uitsluitend verwerken voor de uitvoering van hun dienstverlening.",
+    "brevo": "Voor het versturen van berichten via het contactformulier gebruiken we Brevo als e-maildienstverlener."
+  },
+  "retention": {
+    "title": "6. Bewaartermijn",
+    "description": "Persoonsgegevens worden niet langer bewaard dan noodzakelijk voor het doel waarvoor ze werden verzameld en voor zover dit nodig is om te voldoen aan wettelijke of administratieve verplichtingen."
+  },
+  "rights": {
+    "title": "7. Uw rechten",
+    "description": "U kunt ons verzoeken om inzage in, correctie of verwijdering van uw persoonsgegevens. Waar van toepassing kunt u ook bezwaar maken tegen de verwerking of vragen om de verwerking te beperken."
+  },
+  "security": {
+    "title": "8. Beveiliging",
+    "description": "MS Infra neemt passende technische en organisatorische maatregelen om persoonsgegevens te beschermen tegen verlies, ongeoorloofde toegang of misbruik."
+  },
+  "cookies": {
+    "title": "9. Cookies",
+    "description": "Deze website maakt momenteel geen gebruik van niet-essentiële marketing- of trackingcookies. Indien dit in de toekomst verandert, zullen we dit privacybeleid en de cookie-instellingen van de website aanpassen."
+  },
+  "changes": {
+    "title": "10. Wijzigingen",
+    "description": "MS Infra kan dit privacybeleid aanpassen wanneer de website, onze dienstverlening of de toepasselijke regelgeving verandert."
+  },
+  "contact": {
+    "title": "11. Contact",
+    "description": "Heeft u vragen over de verwerking van uw persoonsgegevens of wilt u een van uw privacyrechten uitoefenen? Neem dan contact met ons op via:"
+  }
+}
+
+
 }

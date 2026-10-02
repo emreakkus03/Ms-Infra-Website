@@ -6,10 +6,12 @@ import {notFound} from 'next/navigation';
 
 import {routing} from '@/i18n/routing';
 import Header from '@/components/layout/Header';
+import Footer from "@/components/layout/Footer";
 import FloatingButtons from '@/components/layout/FloatingButtons';
+import {getActivities} from '@/lib/activities/api';
+import {getJobs} from '@/lib/jobs/api';
+
 import './globals.css';
-
-
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
@@ -30,13 +32,24 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
 
+ const [activities, jobs] = await Promise.all([
+  getActivities(locale),
+  getJobs(locale),
+]);
+
+const jobsCount = jobs.length;
+
   return (
     <html lang={locale}>
       <body>
         <NextIntlClientProvider>
-          <Header />
+          <Header
+  activities={activities}
+  jobsCount={jobsCount}
+/>
           <FloatingButtons />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

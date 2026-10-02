@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "incremental": false
+  },
+  "include": [
+    "next-env.d.ts",
+    "app/[locale]/jobs/**/*.tsx",
+    "components/jobs/**/*.tsx",
+    "components/content/**/*.tsx",
+    "components/layout/LanguageSwitcher.tsx",
+    "lib/**/*.ts",
+    "proxy.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

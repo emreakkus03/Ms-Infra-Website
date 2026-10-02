@@ -12,6 +12,16 @@ export default function LanguageSwitcher() {
   const changeLocale = (nextLocale: 'nl' | 'en') => {
     if (nextLocale === locale) return;
 
+    if (pathname === '/jobs/[slug]') {
+      const alternate = document.querySelector<HTMLLinkElement>(`link[rel="alternate"][hreflang="${nextLocale}"]`);
+      const slug = alternate ? new URL(alternate.href, window.location.origin).pathname.split('/').filter(Boolean).at(-1) : undefined;
+      if (slug) {
+        router.replace({ pathname: '/jobs/[slug]', params: { slug: decodeURIComponent(slug) } }, { locale: nextLocale });
+      } else {
+        router.replace('/jobs', { locale: nextLocale });
+      }
+      return;
+    }
     router.replace(pathname, {
       locale: nextLocale
     });

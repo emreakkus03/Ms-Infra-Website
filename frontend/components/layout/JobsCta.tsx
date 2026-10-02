@@ -33,7 +33,7 @@ export default async function JobsCta() {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
-                href="/"
+                href="/jobs"
                 className="group inline-flex items-center justify-center gap-2 rounded-lg bg-[#B81C31] px-6 py-3.5 font-semibold text-white transition-colors duration-200 hover:bg-[#971728]"
               >
                 {t("primaryCta")}
@@ -45,7 +45,7 @@ export default async function JobsCta() {
               </Link>
 
               <Link
-                href="/about"
+                href="/contact"
                 className="group inline-flex items-center justify-center gap-2 rounded-lg border border-white/20 px-6 py-3.5 font-semibold text-white transition-all duration-200 hover:border-white hover:bg-white hover:text-[#1B2227]"
               >
                 {t("secondaryCta")}

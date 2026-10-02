@@ -6,11 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:jobs": "node --test tests/jobs*.test.mjs",
+    "typecheck:jobs": "tsc --project tsconfig.jobs.json --noEmit"
   },
   "dependencies": {
     "i18n": "^0.15.4",
-    "lucide-react": "^1.48.0",
+    "lucide-react": "^1.49.0",
     "next": "16.3.6",
     "next-intl": "^4.14.7",
     "react": "19.2.8",

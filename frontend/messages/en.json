@@ -1,18 +1,58 @@
 {
-    "Header": {
+  "General": {
+     "companyName": "MS Infra BV",
+  "email": "info@msinfra.be",
+  "phone": "052 35 37 97",
+  "phoneHref": "052353797",
+  "address": "Haverheidelaan 2, 9140 Temse",
+   "vat": "BE0722.823.214",
+  "facebook": "https://www.facebook.com/p/Ms-Infra-61558801023475/",
+  "linkedin": "https://www.linkedin.com/company/ms-infra-group/",
+  "instagram": "https://instagram.com/",
+  "developerUrl": "https://www.linkedin.com/in/emre-akkus-118363251/"
+},
+"Metadata": {
+  "Home": {
+    "title": "MS Infra | Infrastructure & Utility Works",
+    "description": "MS Infra specialises in utility networks, groundwork, residential connections, telecom, water, gas and electricity across Belgium."
+  },
+  "About": {
+    "title": "About MS Infra | Infrastructure Works in Belgium",
+    "description": "Discover MS Infra, an experienced contractor for utility networks, groundwork and infrastructure works across Belgium."
+  },
+  "Activities": {
+    "title": "Activities | MS Infra",
+    "description": "Discover MS Infra's activities, including utility networks, groundwork, residential connections, telecom, water, gas, electricity and paving."
+  },
+  "Jobs": {
+    "title": "Jobs | Work at MS Infra",
+    "description": "Discover open positions at MS Infra and help build strong infrastructure across Belgium."
+  },
+  "Contact": {
+    "title": "Contact | MS Infra",
+    "description": "Contact MS Infra for questions about infrastructure works, utility networks, projects or collaborations."
+  },
+  "Privacy": {
+  "title": "Privacy Policy | MS Infra",
+  "description": "Read how MS Infra processes and protects personal data when you use our website or contact us."
+}
+},
+  "Header": {
+    "home": "Home",
     "about": "About us",
     "activities": "Activities",
     "jobs": "Jobs",
     "contact": "Contact",
     "activitiesEmpty": "Activities will be added soon.",
-     "language": "Language:",
+    "language": "Language:",
     "email": "info@msinfra.be",
-    "phone": "052 35 37 97"
+    "phone": "052 35 37 97",
+    "allActivities": "All activities"
   },
   "Floating": {
-  "call": "Call us",
-  "mail": "Email us"
-},
+    "call": "Call us",
+    "mail": "Email us"
+  },
   "HomePage": {
     "Hero": {
       "eyebrow": "MS INFRA",
@@ -30,59 +70,302 @@
     "empty": "There are currently no published activities."
   },
   "WhyUsSection": {
-  "eyebrow": "Why MS Infra",
-  "title": "Craftsmanship you can rely on.",
-  "description": "MS Infra combines experience, specialised equipment and skilled teams to deliver infrastructure works safely and professionally.",
-  "items": {
-    "experience": {
-      "title": "Experience in utility infrastructure",
-      "description": "Strong expertise in infrastructure for gas, electricity, water and telecom."
+    "eyebrow": "Why MS Infra",
+    "title": "Craftsmanship you can rely on.",
+    "description": "MS Infra combines experience, specialised equipment and skilled teams to deliver infrastructure works safely and professionally.",
+    "items": {
+      "experience": {
+        "title": "Experience in utility infrastructure",
+        "description": "Strong expertise in infrastructure for gas, electricity, water and telecom."
+      },
+      "fluvius": {
+        "title": "Contractor for Fluvius",
+        "description": "Work carried out according to clear quality and safety requirements."
+      },
+      "equipment": {
+        "title": "Own equipment & skilled teams",
+        "description": "Professional equipment and experienced crews for efficient execution."
+      },
+      "complete": {
+        "title": "From groundwork to finishing",
+        "description": "From excavation and connections to paving and restoration."
+      }
+    }
+  },
+  "AboutSection": {
+    "eyebrow": "About MS Infra",
+    "title": "Building strong infrastructure since 2019.",
+    "paragraph1": "Since 2019, MS Infra has grown into a versatile infrastructure contractor. With more than 100 employees, we deliver projects across Belgium.",
+    "paragraph2": "We combine craftsmanship, experience and a strong focus on safety and quality. As a contractor for Fluvius, we work every day on reliable infrastructure for water, gas, electricity and telecom.",
+    "cta": "More about MS Infra",
+    "stats": {
+      "founded": {
+        "value": "2019",
+        "label": "Founded"
+      },
+      "employees": {
+        "value": "100+",
+        "label": "Employees"
+      },
+      "coverage": {
+        "value": "Belgium",
+        "label": "Active nationwide"
+      }
+    }
+  },
+  "CertificatesSection": {
+    "eyebrow": "Certificates & quality",
+    "title": "Safe and compliant with high standards.",
+    "description": "Quality and safety are at the heart of everything we do. Our certificates and accreditations underline our professional way of working."
+  },
+  "JobsCta": {
+    "eyebrow": "Work at MS Infra",
+    "title": "Help build the infrastructure of tomorrow.",
+    "description": "We are always looking for motivated professionals who want to help us build strong and reliable infrastructure.",
+    "primaryCta": "View vacancies",
+    "secondaryCta": "Contact us"
+  },
+  "AboutPage": {
+    "Hero": {
+      "eyebrow": "About MS Infra",
+      "title": "Strong infrastructure starts with strong people.",
+      "description": "Since 2019, we have been building reliable infrastructure across Belgium with craftsmanship, experience and responsibility."
+    }
+  },
+  "AboutIntro": {
+    "eyebrow": "About MS Infra",
+    "title": "From a strong start to an established name in infrastructure works.",
+    "paragraph1": "Since 2019, MS Infra has grown into a versatile contractor with more than 100 employees. Today, we carry out works across Belgium involving utility networks, residential connections, groundwork, paving, telecom, water, gas and electricity.",
+    "paragraph2": "We combine craftsmanship with safety, quality and professional execution on every project.",
+    "stats": {
+      "founded": {
+        "value": "2019",
+        "label": "Founded"
+      },
+      "employees": {
+        "value": "100+",
+        "label": "Employees"
+      },
+      "coverage": {
+        "value": "Belgium",
+        "label": "Active nationwide"
+      },
+      "fluvius": {
+        "value": "Fluvius",
+        "label": "Contractor"
+      }
+    }
+  },
+  "AboutRecognitions": {
+    "eyebrow": "Recognitions",
+    "title": "Recognised for a wide range of infrastructure works.",
+    "description": "MS Infra holds several official contractor recognitions. These recognitions demonstrate our technical capability across a wide range of infrastructure and utility works."
+  },
+  "AboutApproach": {
+    "eyebrow": "Our approach",
+    "title": "From preparation to execution.",
+    "description": "We work in a structured and safe way, with a strong focus on quality throughout every stage of the project.",
+    "items": {
+      "safety": {
+        "title": "Safety first",
+        "description": "Safe working practices are central on every site, for our employees, partners and surroundings."
+      },
+      "communication": {
+        "title": "Clear collaboration",
+        "description": "Clear agreements and good communication ensure smooth execution from start to finish."
+      },
+      "quality": {
+        "title": "Quality at every stage",
+        "description": "From preparation to finishing, we aim for professional and durable execution."
+      }
+    }
+  },
+  "JobsPage": {
+     "back": "Back to jobs",
+  "detailEyebrow": "Job vacancy",
+    "Hero": {
+      "eyebrow": "Work at MS Infra",
+      "title": "Help build the infrastructure of tomorrow.",
+      "description": "At MS Infra, we work together every day to build strong and reliable infrastructure. Explore our open positions and become part of our team."
     },
-    "fluvius": {
-      "title": "Contractor for Fluvius",
-      "description": "Work carried out according to clear quality and safety requirements."
+    "openPositions": "Open positions",
+    "empty": "There are currently no open positions.",
+    "viewJob": "View vacancy",
+    "location": "Location",
+    "employmentType": "Employment type",
+    "employmentTypes": {
+      "full_time": "Full-time",
+      "part_time": "Part-time",
+      "temporary": "Temporary",
+      "internship": "Internship"
+    },
+    "loading": "Loading vacancies…",
+    "errorTitle": "Vacancies are temporarily unavailable",
+    "errorDescription": "We cannot load vacancies right now. Please try again.",
+    "retry": "Try again",
+    "notFound": "Vacancy not found",
+    "notFoundDescription": "This vacancy is unavailable or is no longer published.",
+    "Application": {
+      "eyebrow": "Apply",
+  "title": "Interested in this position?",
+  "description": "Send us your CV and a short motivation by email. We will get back to you as soon as possible.",
+  "button": "Apply by email",
+  "subject": "Application for {title}"
+    }
+  },
+  "WhyWorkAtMsInfra": {
+  "eyebrow": "Why MS Infra",
+  "title": "Help build strong infrastructure.",
+  "description": "At MS Infra, you become part of a growing company where craftsmanship, collaboration and responsibility are central.",
+  "items": {
+    "team": {
+      "title": "Strong team",
+      "description": "You work alongside experienced colleagues who help build reliable infrastructure every day."
+    },
+    "projects": {
+      "title": "Varied projects",
+      "description": "From utility networks and connections to groundwork and infrastructure works across different sites."
     },
     "equipment": {
-      "title": "Own equipment & skilled teams",
-      "description": "Professional equipment and experienced crews for efficient execution."
+      "title": "Professional equipment",
+      "description": "We use suitable equipment and the right tools to carry out our work professionally."
     },
-    "complete": {
-      "title": "From groundwork to finishing",
-      "description": "From excavation and connections to paving and restoration."
+    "growth": {
+      "title": "Room to grow",
+      "description": "Motivated employees get the opportunity to take on responsibility and grow within MS Infra."
     }
   }
 },
-"AboutSection": {
-  "eyebrow": "About MS Infra",
-  "title": "Building strong infrastructure since 2019.",
-  "paragraph1": "Since 2019, MS Infra has grown into a versatile infrastructure contractor. With more than 100 employees, we deliver projects across Belgium.",
-  "paragraph2": "We combine craftsmanship, experience and a strong focus on safety and quality. As a contractor for Fluvius, we work every day on reliable infrastructure for water, gas, electricity and telecom.",
-  "cta": "More about MS Infra",
-  "stats": {
-    "founded": {
-      "value": "2019",
-      "label": "Founded"
-    },
-    "employees": {
-      "value": "100+",
-      "label": "Employees"
-    },
-    "coverage": {
-      "value": "Belgium",
-      "label": "Active nationwide"
-    }
-  }
+"SpontaneousApplication": {
+  "eyebrow": "Spontaneous application",
+  "title": "Didn't find the right vacancy?",
+  "description": "Feel free to send us your CV and a short motivation by email. Tell us what kind of position you are looking for and we may find a place for you within MS Infra.",
+  "cta": "Send your application"
 },
-"CertificatesSection": {
-  "eyebrow": "Certificates & quality",
-  "title": "Safe and compliant with high standards.",
-  "description": "Quality and safety are at the heart of everything we do. Our certificates and accreditations underline our professional way of working."
+
+"ContactPage": {
+  "Hero": {
+    "eyebrow": "Contact",
+    "title": "Get in touch with MS Infra.",
+    "description": "Do you have a question about our services, a collaboration or a project? Feel free to contact us. We are happy to help."
+  },
+
+"ContactSection": {
+  "eyebrow": "Contact details",
+  "title": "We're happy to help.",
+  "description": "Contact us by phone, email or through the contact form. We will respond to your question as soon as possible.",
+  "phoneLabel": "Phone",
+  "emailLabel": "Email",
+  "addressLabel": "Address"
 },
-"JobsCta": {
-  "eyebrow": "Work at MS Infra",
-  "title": "Help build the infrastructure of tomorrow.",
-  "description": "We are always looking for motivated professionals who want to help us build strong and reliable infrastructure.",
-  "primaryCta": "View vacancies",
-  "secondaryCta": "Contact us"
+"Form": {
+  "name": "Name *",
+  "email": "Email address *",
+  "phone": "Phone number *",
+  "subject": "Subject *",
+  "message": "Message *",
+  "submit": "Send message",
+  "sending": "Sending message...",
+  "sent": "Message sent",
+  "success": "Your message has been sent successfully. We will get back to you as soon as possible.",
+  "error": "Something went wrong while sending your message. Please try again later."
+},
+"Map": {
+  "eyebrow": "Our location",
+  "title": "Find us here.",
+  "description": "View our location on the map and easily plan your route to MS Infra.",
+  "mapTitle": "MS Infra location"
 }
+},
+"ActivitiesPage": {
+  "eyebrow": "Our activities",
+  "title": "Strong in infrastructure works.",
+  "description": "Discover the activities in which MS Infra applies expertise, craftsmanship and experience every day.",
+  "empty": "There are currently no published activities."
+},
+
+"Footer": {
+  "description": "Your partner for utility networks, infrastructure works and professional execution across Belgium.",
+  "navigation": "Navigation",
+  "contact": "Contact",
+  "openingHours": "Opening hours",
+  "socials": "Follow us",
+  "home": "Home",
+  "about": "About us",
+  "activities": "Activities",
+  "jobs": "Jobs",
+  "contactPage": "Contact",
+  "vatLabel": "VAT",
+  "monday": "Monday",
+  "tuesday": "Tuesday",
+  "wednesday": "Wednesday",
+  "thursday": "Thursday",
+  "friday": "Friday",
+  "saturday": "Saturday",
+  "sunday": "Sunday",
+  "weekdayHours": "08:00 - 17:00",
+  "closed": "Closed",
+  "privacy": "Privacy policy",
+  "copyright": "All rights reserved.",
+  "builtByLabel": "Built by"
+},
+
+"PrivacyPage": {
+  "eyebrow": "Privacy",
+  "title": "Privacy Policy",
+  "intro": "This privacy policy explains which personal data MS Infra processes when you use our website or contact us.",
+  "vatLabel": "VAT",
+  "controller": {
+    "title": "1. Data controller"
+  },
+  "data": {
+    "title": "2. What data do we process?",
+    "description": "When you use the contact form, we may process the following personal data:",
+    "items": {
+      "name": "Name",
+      "email": "Email address",
+      "phone": "Telephone number",
+      "subject": "Subject of your message",
+      "message": "The content of your message"
+    }
+  },
+  "purposes": {
+    "title": "3. Why do we process your data?",
+    "description": "We use your data to respond to your request, contact you and follow up on commercial or project-related communication where appropriate."
+  },
+  "legalBasis": {
+    "title": "4. Legal basis",
+    "description": "Processing takes place where necessary to handle your request, take steps at your request before entering into an agreement, or on the basis of MS Infra's legitimate interest in handling enquiries and business communication appropriately."
+  },
+  "processors": {
+    "title": "5. External service providers",
+    "description": "We may use external service providers for the operation of our website and communications. These providers process personal data only insofar as necessary to provide their services.",
+    "brevo": "We use Brevo as our email service provider to send messages submitted through the contact form."
+  },
+  "retention": {
+    "title": "6. Retention period",
+    "description": "Personal data is not retained longer than necessary for the purpose for which it was collected and insofar as required to comply with legal or administrative obligations."
+  },
+  "rights": {
+    "title": "7. Your rights",
+    "description": "You may request access to, correction or deletion of your personal data. Where applicable, you may also object to processing or request that processing be restricted."
+  },
+  "security": {
+    "title": "8. Security",
+    "description": "MS Infra takes appropriate technical and organisational measures to protect personal data against loss, unauthorised access or misuse."
+  },
+  "cookies": {
+    "title": "9. Cookies",
+    "description": "This website currently does not use non-essential marketing or tracking cookies. If this changes in the future, we will update this privacy policy and the website's cookie settings accordingly."
+  },
+  "changes": {
+    "title": "10. Changes",
+    "description": "MS Infra may update this privacy policy when the website, our services or applicable regulations change."
+  },
+  "contact": {
+    "title": "11. Contact",
+    "description": "If you have questions about how we process your personal data or wish to exercise one of your privacy rights, please contact us at:"
+  }
+}
+
 }
